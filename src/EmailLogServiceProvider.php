@@ -29,7 +29,6 @@ class EmailLogServiceProvider extends ServiceProvider
             EmailLogEvent::class,
             EmailLogListener::class
         );
-//        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->publishesConfig();
     }
 

@@ -25,15 +25,11 @@ composer require sendmail/logs
          * Application Service Providers...
          */
         ...
-        \Email\Logs\EmailLogServiceProvider::class
+        Email\Logs\EmailLogServiceProvider::class
         ...
     ])->toArray(),
 ```
 ### Publish config, migrate
-
-```bash
-php artisan vendor:publish --tag="email_log_config"
-```
 
 ```bash
 php artisan vendor:publish --tag="email_log_migration"
