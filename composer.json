@@ -1,5 +1,5 @@
 {
-    "name": "email/logs",
+    "name": "mail/logs",
     "description": "log send email",
     "type": "library",
     "license": "MIT",
