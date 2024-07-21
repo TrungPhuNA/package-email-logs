@@ -37,6 +37,6 @@ class EmailLogServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/database/migrations' => database_path('migrations'),
-        ],'email_log_config');
+        ],'email_log_migration');
     }
 }

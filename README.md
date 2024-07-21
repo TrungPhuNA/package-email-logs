@@ -35,6 +35,10 @@ composer require sendmail/logs
 php artisan vendor:publish --tag="email_log_config"
 ```
 
+```bash
+php artisan vendor:publish --tag="email_log_migration"
+```
+
 ### Example
 ```php 
 <?php
