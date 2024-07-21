@@ -1,5 +1,5 @@
 {
-    "name": "sendbox/logs",
+    "name": "sendmail/logs",
     "description": "log send email",
     "type": "library",
     "license": "MIT",
