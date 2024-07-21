@@ -11,7 +11,7 @@ Version v1.1.0
 ## Installation
 
 ```bash
-composer require pigs/admin-acl-setting
+composer require sendmail/logs
 ```
 
 ### Khai báo service  config/app.php
